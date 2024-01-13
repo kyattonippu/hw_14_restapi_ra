@@ -9,7 +9,7 @@ repositories {
     mavenCentral()
 }
 
-def junitVersion = "5.9.3",
+def junitVersion = "5.10.0",
     restAssured = "5.3.2"
 
 dependencies {
@@ -17,7 +17,7 @@ dependencies {
             "org.junit.jupiter:junit-jupiter-api:$junitVersion",
             "io.rest-assured:rest-assured:$restAssured",
             "io.rest-assured:json-schema-validator:$restAssured",
-            "org.assertj:assertj-core:3.24.2"
+            "org.assertj:assertj-core:3.25.1"
     )
     testRuntimeOnly "org.junit.jupiter:junit-jupiter-engine:$junitVersion"
 }
